@@ -49,8 +49,8 @@ namespace ConsoleApplication1
 
                     for (int it = 0; it <= iteration; it++)
                     {
+                        Zn = Zn1;
                         Zn1 = Zn * Zn + c;                     				//The formula
-						int escapeTime = 0;  
                         escapeTime = escapeTime + 10;                        //Incraments the escape time(If it escapes after one, it will equal 1, ect.)
 
                         string hex = "#" + escapeTime.ToString("X");
